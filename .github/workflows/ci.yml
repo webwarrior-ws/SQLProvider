@@ -19,3 +19,13 @@ jobs:
       run: |
         & .\build.cmd
         if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+    - name: Upload artifact (bin)
+      uses: actions/upload-artifact@v4
+      with:
+        name: bin
+        path: bin
+    - name: Upload artifact (dist)
+      uses: actions/upload-artifact@v4
+      with:
+        name: dist
+        path: dist

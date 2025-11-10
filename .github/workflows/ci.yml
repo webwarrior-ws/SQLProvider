@@ -17,4 +17,5 @@ jobs:
         dotnet-version: 8.0.415
     - name: Build
       run: |
-        .\build.cmd
+        & .\build.cmd
+        if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

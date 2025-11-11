@@ -45,8 +45,10 @@ additional samples and documentation!
 
 ## Building
 
-* Mono: Run *build.sh*  [![Mono build status](https://travis-ci.org/fsprojects/SQLProvider.svg?branch=master)](https://travis-ci.org/fsprojects/SQLProvider)
-* Windows: Run *build.cmd* [![Build status](https://ci.appveyor.com/api/projects/status/ngbj9995twhfqn28/branch/master?svg=true)](https://ci.appveyor.com/project/colinbull/sqlprovider-ogy2l/branch/master)
+* Windows: Run *build.cmd*
+* Linux/MacOS: Run *build.sh*
+
+![Build status](https://github.com/webwarrior-ws/SQLProvider/actions/workflows/CI.yml/badge.svg?branch=wip/migrateToGithubActions2)
 
 ## Known issues
 

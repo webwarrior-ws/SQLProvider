@@ -6,5 +6,5 @@ else
   dotnet tool restore
   dotnet tool run paket restore
   #dotnet fsi build.fsx -t Build $@
-  dotnet fake run build.fsx -t Build $@
+  dotnet tool run fake run build.fsx -t Build $@
 fi
